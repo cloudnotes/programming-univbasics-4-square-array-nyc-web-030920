@@ -1,11 +1,14 @@
 def square_array(array)
 
 counter = 0
+temp = []
 while counter < array.length do
 
-array[counter]**2
+temp.push(array[counter]**2)
 counter += 1
+
 end
 
-array
+temp
+
 end
